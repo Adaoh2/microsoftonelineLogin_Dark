@@ -1,29 +1,32 @@
 /* ==UserStyle==
-@name           login.microsoftonline.com - 02/02/2021 à 14:18:47
+@name           Microsoft Login Dark
 @namespace      https://github.com/Adaoh2/microsoftonelineLogin_Dark/
-@version        1.0.0
+@version        1.0.1
 @description    Dark mode for microsoft login
 @author         Adaoh
 ==/UserStyle== */
-@-moz-document url-prefix(https://github.com/Adaoh2/microsoftonelineLogin_Dark/"https://login.microsoftonline.com/common/oauth2/") {
-    .inner,
-    .sign-in-box {
-        background-color: #1f1f1f;
-        border-radius: 5px;
-    }
-    .title {
-        color: #cacaca;
-    }
-    .input.text-box {
-        background-color: #2b2b2b;
-        border-radius: 5px;
-        
-    }
-    body.cb {
-        color: #cacaca;
-    }
-  /*  .placeholderContainer {
+@-moz-document url-prefix(https: //github.com/Adaoh2/microsoftonelineLogin_Dark/"https://login.microsoftonline.com/common/oauth2/") {
+.inner,
+.sign-in-box {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+.title {
+    color: #cacaca;
+}
+.input.text-box {
+    background-color: #2b2b2b;
+    border-radius: 5px;
+}
+.input.text-box:hover {
+    background-color: #292929;
+}
+body.cb {
+    color: #cacaca;
+}
+/*  .placeholderContainer {
         color: red;
         opacity: 1;
     } */
+
 }

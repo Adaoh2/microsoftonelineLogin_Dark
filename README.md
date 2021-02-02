@@ -1,4 +1,4 @@
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Adaoh2/microsoftonelineLogin_Dark/blob/main/msft_lgn.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Adaoh2/microsoftonlineLogin_Dark/master/msft_lgn.user.css)
 # Microsoft Login Dark
 CHANGER: -> Un thème sombre pour le Mozaik Portail // A dark mode for Mozaik Portail
 

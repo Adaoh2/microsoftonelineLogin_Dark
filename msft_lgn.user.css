@@ -1,66 +1,58 @@
 /* ==UserStyle==
-
 @name           Microsoft Login Dark
-
 @namespace      https://github.com/Adaoh2/microsoftonelineLogin_Dark/
-
-@version        1.0.1
-
+@version        1.0.3
 @description    Dark mode for microsoft login
-
 @author         Adaoh
-
 ==/UserStyle== */
-
-@-moz-document url-prefix(https: //github.com/Adaoh2/microsoftonelineLogin_Dark/"https://login.microsoftonline.com/common/oauth2/") {
-
+@-moz-document url-prefix(https: //login.microsoftonline.com/common/oauth2/), url-prefix("https://login.live.com") {
 .inner,
-
 .sign-in-box {
-
     background-color: #1f1f1f;
-
     border-radius: 5px;
-
 }
-
 .title {
-
     color: #cacaca;
-
 }
-
 .input.text-box {
-
     background-color: #2b2b2b;
-
     border-radius: 5px;
-
 }
-
+.input.text-box::placeholder {
+    color: #9b9b9b;
+}
 .input.text-box:hover {
-
     background-color: #292929;
-
 }
-
+.input.text-box:focus {
+    background-color: #292929;
+}
 body.cb {
-
     color: #cacaca;
-
 }
 
-/*  .placeholderContainer {
-
-        color: red;
-
-        opacity: 1;
-
-    } */
-
-
-
+.background > div, .background-image, .background-image-small {
+    background-color: #1f1f1f;
+}
+.footer-content.footer-item {
+    color: #fff;
+}
+.identityBanner {
+    background: #1f1f1f;
+}
+/* disabling white flash when loading page */
+.background-image {
+    -webkit-animation: 1s;
+    -moz-animation: 1s;
+    -o-animation: 1s;
+    animation: 1s
 }
 
-
-
+/* Rester connecte */
+    .text-title {
+    color: #cacaca;
+    } 
+    .button.secondary {
+        color:#cacaca;
+    }
+}
